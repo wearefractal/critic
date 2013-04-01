@@ -32,7 +32,7 @@ critic.create "walking dead", (err, snob) ->
 
 ## Examples
 
-You can view more examples in the [example folder.](https://github.com/wearefractal/APPNAME/tree/master/examples)
+You can view more examples in the [example folder.](https://github.com/wearefractal/critic/tree/master/examples)
 
 ## LICENSE
 
