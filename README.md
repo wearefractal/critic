@@ -23,7 +23,11 @@ critic = require 'critic'
 # no category will pull from top torrents
 
 critic.create "walking dead", (err, snob) ->
-  console.log snob.respond "finale"
+  snob.respond "finale"
+  # outputs
+  ###
+    Its a graphic novel so I am not sure that they can deviate from the path set down less drama more zombie action. EZTV always solid uploads!  in the comic. Agreed, Rick is a bit shit though as a leader, although I think the idea is that he is carrying the weight of the zombie-apocalypse on his shoulders. The comic doesn't have as much talkie-talkie in it
+  ###
 ```
 
 ## Examples

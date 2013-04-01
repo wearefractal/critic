@@ -47,7 +47,7 @@ module.exports = critic =
       return cb err if err?
 
       out =
-        markov: markov 20
+        markov: markov()
         comments: []
         random: -> out.markov.pick()
         respond: (s) -> out.markov.respond(s).join ' '
