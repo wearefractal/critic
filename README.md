@@ -1,14 +1,12 @@
-![status](https://secure.travis-ci.org/wearefractal/APPNAME.png?branch=master)
-
 ## Information
 
 <table>
 <tr> 
-<td>Package</td><td>APPNAME</td>
+<td>Package</td><td>critic</td>
 </tr>
 <tr>
 <td>Description</td>
-<td>NOTHING HERE YET</td>
+<td>Provides media critiques powered by ThePirateBay</td>
 </tr>
 <tr>
 <td>Node Version</td>
@@ -19,7 +17,13 @@
 ## Usage
 
 ```coffee-script
-NOTHING HERE YET
+critic = require 'critic'
+
+# create a critic with a general category
+# no category will pull from top torrents
+
+critic.create "walking dead", (err, snob) ->
+  console.log snob.respond "finale"
 ```
 
 ## Examples
